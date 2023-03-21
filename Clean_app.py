@@ -10,7 +10,8 @@ cleaned_companies = {}
 for y in companies:
     pattern = re.sub(r'[^\w\s] ', ' ', y["name"])
     
-   
+   pattern = pattern.title()
+
     cleaned_companies = {
         pattern: {
         "name":        y["name"],
