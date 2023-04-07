@@ -9,4 +9,4 @@ The second scripts contains API's functions from Flask with help of a request an
 Continuously the files are going to be cleaned with regex func. while posting them one by one with different key values
 after being cleaned from unnecessary characters
 
-Used packegas are: Flask, pymongo, sqlite3 and cleanco
+Used packegas are: Flask, pymongo, regex, sqlite3 and cleanco
